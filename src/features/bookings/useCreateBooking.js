@@ -12,7 +12,7 @@ export function useCreateBooking() {
       toast.success("New Booking successfully created");
 
       queryClient.invalidateQueries({
-        queryKey: ["booings"],
+        queryKey: ["bookings"],
       });
     },
 
